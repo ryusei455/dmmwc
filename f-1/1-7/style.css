@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #a0a0a0;
+  }
+
+  .main-visual {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px;
+      background-image: url(img/mv.jpg);
+      background-position: bottom;
+      background-size: cover;
+
+  }
+
+  .main-visual h3 {
+      padding: 20px;
+
+  }
+  main {
+      width: 840px;
+      margin: 0 auto;
+  }
+  
+  .introduction {
+      width: 840px;
+      
+  }
+
+  .i-box {
+      
+      padding-bottom: 50px;
+      
+  }
+  .i-item {
+      padding:30px 0 ;
+      border-bottom: 1px solid #a0a0a0;
+
+  }
