@@ -189,6 +189,22 @@ header .heading {
     background-image: url(img/road.jpg);
   }
 
+  .pagination {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .pagination p {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #acabab;
+    border-radius: 3px;
+    line-height: 30px;
+  }
+
 /* フッター */
 footer{
   width: 100%;
