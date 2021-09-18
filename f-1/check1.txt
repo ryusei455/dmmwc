@@ -52,3 +52,34 @@ span {
 8章確認問題
 1,red
 2.d
+
+9章確認問題
+1.2.3
+<head>
+    <meta charset="UTF-8" />
+    <script src="https://kit.fontawesome.com/52d6e99620.js" crossorigin="anonymous"></script>
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css" />
+    <title>CARAVAN</title>
+  </head>
+
+  <body>
+    <div class="position">
+      <h1 class="heading"><a href=index.html>CARAVAN</a></h1>
+      <div class="social">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        
+      </div>
+    </div>
+    
+
+    .fab {
+  font-size: 32px;
+    }
+
+    .position {
+        position: absolute;
+        top: 100px;
+        right: 40px;
+    }

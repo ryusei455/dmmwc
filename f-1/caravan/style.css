@@ -7,6 +7,11 @@
 
   a {
     text-decoration: none;
+
+  }
+
+  header, nav, h2, .main-visual, footer {
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
   }
 /* ヘッダー */
 header{
@@ -14,6 +19,18 @@ header{
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 header .heading {
@@ -58,7 +75,7 @@ header .heading {
 
 
 /* メイン */
-  .main {
+  main {
     width: 800px; 
     display: flex;
     justify-content: center;
@@ -73,7 +90,7 @@ header .heading {
     
   }
 
-  .blog-headeing {
+  .blog-heading {
     border-bottom: 8px solid #f7f7f7;
     text-align: center;
     line-height: 0.6;
@@ -96,7 +113,7 @@ header .heading {
     height: 180px;
   }
   
-  .box-text {
+  .blog-text {
     padding: 25px 0 30px 0;
 
   }
@@ -117,6 +134,22 @@ header .heading {
     border-radius: 3px;
     color: #fff;
     font-size: 11px;
+  }
+
+  .pagination {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .pagination p {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #acabab;
+    border-radius: 3px;
+    line-height: 30px;
   }
 
   .sidebar {
@@ -189,21 +222,7 @@ header .heading {
     background-image: url(img/road.jpg);
   }
 
-  .pagination {
-    text-align: center;
-    padding-top: 50px;
-  }
   
-  .pagination p {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
-    color: #fff;
-    background-color: #acabab;
-    border-radius: 3px;
-    line-height: 30px;
-  }
 
 /* フッター */
 footer{
